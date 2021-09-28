@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: cornsilk;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cards {
+    padding-left: 20px;
+}
+
+.card h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ava {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    padding-top: 5px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.info p {
+    margin: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #FFEBCD;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+}
+
+.description {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.targets h2 {
+    text-align: center;
+}
+
+.learningTime h2 {
+    text-align: center;
+}
+
+.learningTime2 {
+    margin: auto;
+    border-spacing: 60px 5px;
+}
+
+.learningTime2 td {
+    padding-bottom: 10px;
+}
+
+.courses h2 {
+    text-align: center;
+}
+
+.courses {
+    margin: auto;
+    text-align: center;
+    border-spacing: 60px 5px;
+}
+
+.contacts h2 {
+    text-align: center;
+}
+
+.contactsTable {
+    margin: auto;
+    text-align: center;
+    border-spacing: 60px 1px;
+}
+
+.icons {
+    width: 64px;
+    cursor: pointer;
+}
+
+.short {
+    width: 450px;
+}
