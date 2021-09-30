@@ -14,17 +14,25 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
 a:hover {
     text-decoration: underline;
 }
 
-.cards {
-    padding-left: 20px;
+.but:hover {
+    opacity: 0.5;
 }
 
-.card h1 {
-    text-align: center;
-    padding-top: 20px;
+.cards {
+    padding-left: 20px;
 }
 
 .ava {
@@ -60,35 +68,10 @@ a:hover {
     padding-right: 20px;
 }
 
-.targets h2 {
-    text-align: center;
-}
-
-.learningTime h2 {
-    text-align: center;
-}
-
-.learningTime2 {
-    margin: auto;
-    border-spacing: 60px 5px;
-}
-
-.learningTime2 td {
-    padding-bottom: 10px;
-}
-
-.courses h2 {
-    text-align: center;
-}
-
 .courses {
     margin: auto;
     text-align: center;
     border-spacing: 60px 5px;
-}
-
-.contacts h2 {
-    text-align: center;
 }
 
 .contactsTable {
@@ -102,6 +85,35 @@ a:hover {
     cursor: pointer;
 }
 
+.logos div, .urls div {
+    width: 74px;
+}
+
 .short {
     width: 450px;
+}
+
+.logos, .urls {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.days, .time {
+    display: flex;
+    flex-direction: column;
+}
+
+.learnTime {
+    margin: auto;
+    width: 42%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.days div, .time div {
+    padding-bottom: 10px;
 }
