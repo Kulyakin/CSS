@@ -117,3 +117,17 @@ a:hover {
 .days div, .time div {
     padding-bottom: 10px;
 }
+
+@media (max-width: 1024px) {
+    body {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      padding: 0 10px;
+      font-size: 12px;
+  
+    }
+  }
